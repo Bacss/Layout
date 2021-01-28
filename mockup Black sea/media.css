@@ -1,0 +1,158 @@
+/*медиа-запрос*/
+@media (min-width: 150px) and (max-width: 800px) {
+.menu-icon {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 4px;
+    background-color: rgba(220, 227, 228, 255);
+    top:25px;
+    left: 20px;
+}
+.menu-icon::before {
+    position: absolute;
+    left: 0;
+    top:-10px;
+    content: '';
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: rgba(220, 227, 228, 255);
+}
+
+.menu-icon::after {
+    position: absolute;
+    left: 0;
+    top:10px;
+    content: '';
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: rgba(220, 227, 228, 255);
+}
+.menu-icon:active{
+    border: 2px solid blue;
+}
+.menu-icon:hover {
+    cursor: s-resize;
+}
+
+.text-header {
+    font-size: 210%;
+    margin: 0 auto;
+}
+
+.btn-block {
+        display: none;
+}
+/*блок-фон море*/
+
+.block-background {
+    padding-bottom: 17%;
+    background-image: url('image/galaxy.png');
+}
+
+.header-background {
+    font-size: 190%;
+    margin-top: 13%;
+}
+
+.button-background {
+    width: 40%;
+    margin-top: 3%;
+    padding: 0.5%;
+}
+
+/*блок с белым фоном*/
+
+.text-header-white {
+    font-size: 170%;
+    margin-top: 10%;
+}
+
+.text-block-white {
+    font-size: 145%;
+}
+.logo-basket {
+    width: 20%;
+    height: auto;
+}
+.logo-globe {
+    width: 20%;
+    height: auto;
+    margin: 0 15% 0 15%;
+}
+.logo-portfolio {
+    width: 20%;
+    height: auto;
+}
+
+/*блок с зеленым фоном*/
+.name-foto-image {
+    font-size: 130%;
+    margin-left: 2%;
+}
+span {
+    font-size: 600%;
+}
+
+.text-block-green {
+    font-family: Raleway Light;
+    font-size: 150%;
+    margin: 5%;
+    text-align: center;
+}
+
+/*блок с картой*/
+.block-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: none;
+    background-color: #4b96a1;
+}
+.circle {
+    display: none;
+}
+.media-input {
+    display:  inline;
+}
+.media-btn {
+    width: 50px;
+    height: 50px;
+    background-image: url('image/envelope_icon.png');
+    border: 1px solid grey;
+    margin-left: 40%;
+
+}
+input {
+    width: 100%;
+    font-size: 120%;
+    color: rgba(76, 80, 93, 255);
+    margin: 1%;
+    padding: 2%;
+}
+
+.input-message-circle {
+    width: 100%;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 12%;
+}
+
+.btn-circle {
+display: none;
+}
+input:focus {
+     background: rgb(219, 210, 208);
+     border: 3px dashed rgb(105, 170, 255);
+   }
+
+.media-btn:hover {
+    border: 2px solid blue;
+}
+/*блок-подвал*/
+.text-footer {
+    font-size: 85%;
+}
+}
