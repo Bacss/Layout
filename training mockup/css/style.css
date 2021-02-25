@@ -464,6 +464,8 @@ button:hover {
     align-items: center;
     width: 48.2%;
     background-color: #ffffff;
+    overflow: hidden;
+}
 }
 .header-block-progress {
     font-weight: bold;
@@ -488,6 +490,7 @@ button:hover {
     width: 48.2%;
     background-color: #ffffff;
     padding-bottom: 2%;
+    overflow: hidden;
 }
 .header-block-shipments {
     font-weight: bold;
